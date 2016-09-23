@@ -3,11 +3,16 @@
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 65px;
 }
 
 header h1 {
   font-size: 4.5em;
+  text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
 }
 
  /*div#container {
@@ -21,10 +26,12 @@ header h1 {
   background-color: #A52A2A;
   width: 90%;
   height: 120px;
-  margin-right: auto;
+  /*margin-right: auto;
   margin-left: auto;
-  margin-bottom: 50px;
+  margin-bottom: 50px;*/
+  margin: auto;
   font-family: Helvetica;
+
   /*color: white;*/
 } 
 
@@ -32,42 +39,68 @@ header h1 {
 div.container {
   position: relative;
   top: 10px;
+  width: 100%;
 }
 
 div.row {
   width: 100%;
+  /*margin: 0 0px 0 0px;*/
+
 }
 
 
 
 section#chicken h3 {
   position: relative;
-  top: -3px;
-  right: -350px;
+  top: -16px;
+  right: 8px;
   border: 1px solid: black;
+  text-align: center;
+  float: right;
 }
 section#beef h3 {
   position: relative;
-  top: -3px;
-  right: -350px;
+  float: right;
+  top: -16px;
+  right: 25px;
+  text-align: center;
+  border: 1px solid: black;
+  color: #FFFFFF
 
 }
 
 section#sushi h3 {
   position: relative;
-  top: -3px;
-  right: -350px;
+  float: right;
+  top: -16px;
+  right: 25px;
+  border: 1px solid: black;
 }
 
 #chicken {
   background-color: #D4A190;
+  float: right;
+  margin: 1px 1px;
+  border: 2px solid black;
+  width: 20%;
+  height: 30px;
 
 }
 #beef {
   background-color: #B01721;
+  float: right;
+  margin: 1px 1px;
+  border: 2px solid black;
+  width: 20%;
+  height: 30px;
 }
 #sushi {
   background-color: #F2D86D;
+  float: right;
+  margin: 1px 1px;
+  border: 2px solid black;
+  width: 20%;
+  height: 30px;
 }
 #p1 {
   background-color: #656964;
@@ -81,11 +114,14 @@ section#sushi h3 {
   background-color: #656964;
 
 }
+
+
 /********** Large/Desktop devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     border: 1px solid green;
+
   }
   .col-lg-1 {
     width: 8.33%;
@@ -130,6 +166,7 @@ section#sushi h3 {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     border: 1px solid green;
+
   }
   .col-md-1 {
     width: 8.33%;
