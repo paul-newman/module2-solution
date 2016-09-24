@@ -29,7 +29,7 @@ header h1 {
   /*margin-right: auto;
   margin-left: auto;
   margin-bottom: 50px;*/
-  margin: auto;
+  /*margin: auto;*?
   font-family: Helvetica;
 
   /*color: white;*/
@@ -104,15 +104,16 @@ section#sushi h3 {
 }
 #p1 {
   background-color: #656964;
+width: 100%;
 
 }
 #p2 {
   background-color: #656964;
-
+  width: 100%;
 }
 #p3 {
   background-color: #656964;
-
+  width: 100%;
 }
 
 div.col-lg-4 col-md-6 col-sm-12 {
@@ -123,7 +124,7 @@ div.col-lg-4 col-md-6 col-sm-12 {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     border: 1px solid green;
-    margin-bottom: 10px;
+    
 
   }
   .col-lg-1 {
