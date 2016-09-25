@@ -59,7 +59,7 @@ section#chicken h3 {
   position: relative;
   top: -16px;
   right: 8px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   text-align: center;
   float: right;
 }
@@ -69,7 +69,7 @@ section#beef h3 {
   top: -16px;
   right: 25px;
   text-align: center;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   color: #FFFFFF
 
 }
@@ -79,7 +79,7 @@ section#sushi h3 {
   float: right;
   top: -16px;
   right: 25px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 #chicken {
