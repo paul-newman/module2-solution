@@ -54,7 +54,7 @@ div.row {
 
 
 
-.section#chicken h3 {
+.section h3#chicken {
   position: relative;
   top: -16px;
   right: 8px;
@@ -62,18 +62,18 @@ div.row {
   text-align: center;
   float: right;
 }
-.section#beef h3 {
+.section h3#beef {
   position: relative;
   float: right;
   top: -16px;
   right: 25px;
   text-align: center;
   /*border: 1px solid black;*/
-  color: #FFFFFF
+  color: #FFFFFF;
 
 }
 
-.section#sushi h3 {
+.section h3#sushi {
   position: relative;
   float: right;
   top: -16px;
@@ -85,26 +85,30 @@ div.row {
   background-color: #D4A190;
   float: right;
   margin: 1px 1px;
-  border: 2px solid black;
+  border: 1px solid black;
   width: 25%;
   height: 30px;
+  text-align: center;
 
 }
 #beef {
   background-color: #B01721;
   float: right;
   margin: 1px 1px;
-  border: 2px solid black;
+  border: 1px solid black;
   width: 23%;
   height: 30px;
+  color: #FFFFFF;
+  text-align: center;
 }
 #sushi {
   background-color: #F2D86D;
   float: right;
   margin: 1px 1px;
-  border: 2px solid black;
+  border: 1px solid black;
   width: 25%;
   height: 30px;
+  text-align: center;
 }
 #p1 {
   background-color: #656964;
